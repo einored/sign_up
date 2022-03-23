@@ -16,16 +16,35 @@ body {
     margin-left: calc(50% - 400px);
 }
 
-.left-column{
+.left-column {
     width: 40%;
     float: left;
     padding: 40px;
-    background-color: aqua;
+    background-color: #008fae;
+    background-image: url(../img/road.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
 }
 
-.right-column{
+.main-title {
+    width: 100%;
+    margin-bottom: 250px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.bottom-links {
+}
+
+.bottom-links > .link {
+    color: #fff;
+}
+
+.right-column {
     width: 60%;
     float: left;
     padding: 60px;
-    background-color: blueviolet;
+    background-color: #fff;
 }
